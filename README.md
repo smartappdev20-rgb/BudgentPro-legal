@@ -1,16 +1,20 @@
-# SmartBudget — Politique de confidentialité
+# SmartBudget — Documents légaux
 
-Version HTML de la politique de confidentialité de l’application **SmartBudget**.
+Versions HTML des documents légaux de l’application **SmartBudget**.
 
 ## Pages publiées
 
 - [Politique de confidentialité](https://smartappdev20-rgb.github.io/smartbudget-legal/)
-- [Version HTML directe](https://smartappdev20-rgb.github.io/smartbudget-legal/privacy-policy.html)
-- [Source Markdown](https://github.com/smartappdev20-rgb/smartbudget-legal/blob/main/privacy-policy.md)
+- [Conditions d’utilisation](https://smartappdev20-rgb.github.io/smartbudget-legal/terms-of-service.html)
+- [Politique de confidentialité — HTML direct](https://smartappdev20-rgb.github.io/smartbudget-legal/privacy-policy.html)
+- [Conditions d’utilisation — HTML direct](https://smartappdev20-rgb.github.io/smartbudget-legal/terms-of-service.html)
 
-## Source
+## Sources
 
-Le contenu provient de `legal/privacy-policy.md` de l’application SmartBudget 1.0.12.
+- `privacy-policy.md` — politique de confidentialité
+- `terms-of-service.md` — conditions générales d’utilisation
+
+Contenu issu de l’application SmartBudget 1.0.12.
 
 Dernière mise à jour : 3 novembre 2026.
 
