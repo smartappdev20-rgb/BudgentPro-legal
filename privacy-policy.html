@@ -52,7 +52,7 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      margin-bottom: 22px;
+      margin-bottom: 18px;
       padding: 6px 12px;
       border-radius: 999px;
       background: var(--accent-soft);
@@ -68,6 +68,36 @@
       height: 8px;
       border-radius: 50%;
       background: var(--accent);
+    }
+
+    .doc-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 30px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .doc-nav a {
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .doc-nav a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .doc-nav a.active {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #ffffff;
     }
 
     h1 {
@@ -120,14 +150,6 @@
 
     blockquote p { margin: 0; }
 
-    .meta {
-      margin: 0 0 26px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .meta strong { color: var(--text); }
-
     footer {
       margin-top: 42px;
       padding-top: 20px;
@@ -136,6 +158,8 @@
       font-size: 13px;
       text-align: center;
     }
+
+    footer a { font-weight: 600; }
 
     @media (max-width: 640px) {
       .page { padding: 16px 10px 36px; }
@@ -148,6 +172,7 @@
       .page { max-width: none; padding: 0; }
       .document { border: 0; box-shadow: none; padding: 0; }
       .brand { border: 1px solid var(--border); }
+      .doc-nav { display: none; }
       h2 { break-after: avoid; }
       a { color: inherit; }
     }
@@ -157,6 +182,10 @@
   <main class="page">
     <article class="document">
       <div class="brand"><span class="brand-dot"></span>SmartBudget · 100 % local</div>
+      <nav class="doc-nav" aria-label="Documents légaux">
+        <a href="privacy-policy.html">Confidentialité</a>
+        <a href="terms-of-service.html">Conditions d’utilisation</a>
+      </nav>
 <h1>Politique de confidentialité — SmartBudget</h1>
 <p><strong>Dernière mise à jour : 3 novembre 2026</strong></p>
 <blockquote>
@@ -228,7 +257,7 @@
 <h2>13. Contact</h2>
 <p>Le canal de contact officiel est le formulaire de support intégré (Réglages &gt; Support). Ne transmettez jamais votre clé de récupération, votre code PIN ou vos identifiants de messagerie à un tiers.</p>
 
-      <footer>SmartBudget · Politique de confidentialité · Document généré depuis <code>legal/privacy-policy.md</code></footer>
+      <footer>SmartBudget · Documents légaux · <a href="privacy-policy.html">Confidentialité</a> · <a href="terms-of-service.html">Conditions d’utilisation</a></footer>
     </article>
   </main>
 </body>
