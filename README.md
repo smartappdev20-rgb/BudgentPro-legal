@@ -21,3 +21,4 @@ Dernière mise à jour : 3 novembre 2026.
 ## Contact
 
 smartappdev20@gmail.com
+
